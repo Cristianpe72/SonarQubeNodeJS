@@ -24,6 +24,5 @@ jobs:
     - name: NodeJS Build Process
       run: |
        npm install
-       npm audit fix
        npm run build --if-present
        npm run test
